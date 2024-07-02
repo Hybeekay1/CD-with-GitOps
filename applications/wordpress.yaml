@@ -9,12 +9,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:Hybeekay1/CD-with-GitOps.git
+    repoURL: https://github.com/Hybeekay1/CD-with-GitOps.git
     targetRevision: HEAD
     path: manifests/wordpress
   destination:
     server: https://kubernetes.default.svc
-    namespace: deploymnet-c
+    namespace: deployment-c
   syncPolicy:
     automated:
       prune: true

@@ -19,7 +19,7 @@ spec:
         valueFiles:
           - $values/manifests/prometheus/values.yaml
     # values from git 
-    - repoURL: git@github.com:Hybeekay1/CD-with-GitOps.git
+    - repoURL: https://github.com/Hybeekay1/CD-with-GitOps.git
       targetRevision: HEAD
       ref: values
   destination:
