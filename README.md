@@ -18,7 +18,7 @@ This instructions to deploy your application using Kubernetes.
    Open a terminal and navigate to the directory containing your application manifests:
 
    ```sh
-   cd /application
+   cd /applications
    ```
 
 3. **Apply the Kubernetes Manifests:**
